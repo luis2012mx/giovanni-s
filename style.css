@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/*palegreen*/
+
+body{
+    background-image: url(img/ricepaper.png);
+    color: black;
+}
+
+.clear{
+    clear: both;
+}
+
+.cabeza{
+    background-color: rgba(0, 0, 0, 0.082);
+}
+
+.cabeza img{
+    width: 70%;
+    margin: 20px 15%;
+}
+
+.cabeza button{
+    background-color: palegreen;
+    border: 2px solid darkgray;
+    font-size: 150%;
+    padding: 5px;
+    width: 10%;
+    margin: 0 45% 20px 45%;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.082);
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.cabeza button:hover{
+    transform: scale(1.1);
+}
+
+#portada{
+    width: 80%;
+    margin: 10px 10%;
+    border-radius: 20px;
+}
+
+h1{
+    /*background: url(img/paper7.jpg);*/
+    /*background-color: rgb(46, 184, 28);*/
+    background-color: rgb(51, 202, 83);
+    text-align: center;
+    width: 60%;
+    margin: 20px 20%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 5px solid darkgrey;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.082);
+    color: azure;
+}
+
+.contenedor{
+    width: 100%;
+}
+
+.articulo{
+    float: left;
+    width: 20%;
+    margin: 20px 2.5%;
+    transition: 0.25s;
+}
+
+.articulo img{
+    width: 100%;
+    cursor: pointer;
+    border-radius: 20px;
+    z-index: -1;
+}
+
+.contenido .articulo p{
+    text-align: center;
+    background-color: palegreen;
+    border: 2px solid darkgrey;
+    border-radius: 5px;
+    margin: 0;
+    padding: 7px;
+    font-weight: bold;
+}
+
+.articulo:hover{
+    transform: translateY(-20px);
+}
+
+#colores{
+    position: relative;
+    top: -30px;
+    left: 130px;
+    z-index: 1;
+    width: 40%;
+    height: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.pie{
+    background-color: rgb(51, 202, 83);
+    text-align: center;
+    margin-bottom: 0;
+    padding: 10px;
+}
+.pie img{
+    width: 5%;
+}
